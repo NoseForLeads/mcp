@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nose-for-leads": {
+      "type": "http",
+      "url": "https://api.noseforleads.com/mcp"
+    }
+  }
+}

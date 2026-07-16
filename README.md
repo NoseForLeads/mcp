@@ -2,6 +2,8 @@
 
 Verified local-business leads, built for agents.
 
+[![smithery badge](https://smithery.ai/badge/hello-secx/leads-mcp)](https://smithery.ai/servers/hello-secx/leads-mcp)
+
 Nose for Leads is an MCP server that finds, filters, and verifies local-business
 leads on demand: agents get back a send-ready list of contacts, not raw scrape
 data. Every email carries a machine-readable verification receipt (verifier,

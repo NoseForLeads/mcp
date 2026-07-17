@@ -3,6 +3,7 @@
 Verified local-business leads, built for agents.
 
 [![smithery badge](https://smithery.ai/badge/hello-secx/leads-mcp)](https://smithery.ai/servers/hello-secx/leads-mcp)
+[![mcp MCP server](https://glama.ai/mcp/servers/NoseForLeads/mcp/badges/card.svg)](https://glama.ai/mcp/servers/NoseForLeads/mcp)
 
 Nose for Leads is an MCP server that finds, filters, and verifies local-business
 leads on demand: agents get back a send-ready list of contacts, not raw scrape

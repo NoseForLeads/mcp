@@ -63,6 +63,16 @@ Cursor's `.cursor/mcp.json` (and any client that reads the standard shape):
 }
 ```
 
+### Stdio-only clients (mcp-remote shim)
+
+Clients that only speak stdio can use the standard `mcp-remote` proxy:
+
+```
+npx -y mcp-remote https://api.noseforleads.com/mcp
+```
+
+The repo's `Dockerfile` packages the same shim (`docker build -t nose-for-leads-mcp . && docker run -i nose-for-leads-mcp`). Listing tools works without auth; tool calls trigger the OAuth flow (or pass the API-key header via `--header "X-API-Key: ..."`).
+
 ### API key (scripts, CI, clients without OAuth)
 
 Mint a key at https://app.noseforleads.com/keys and pass it as a header:
